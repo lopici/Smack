@@ -19,6 +19,8 @@
 		017455A11FA1FC1A00502259 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017455A01FA1FC1A00502259 /* Constants.swift */; };
 		017455A31FA2042800502259 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017455A21FA2042800502259 /* LoginVC.swift */; };
 		0174DDBA1FA03B1B00F87D87 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174DDB91FA03B1B00F87D87 /* GradientView.swift */; };
+		0181A0731FA592D300CCABA1 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181A0721FA592D300CCABA1 /* AvatarPickerVC.swift */; };
+		0181A0751FA594E700CCABA1 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181A0741FA594E700CCABA1 /* AvatarCell.swift */; };
 		01B1F8391FA3422200B0EC58 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B1F8381FA3422200B0EC58 /* CreateAccountVC.swift */; };
 		01F8D8FC1FA415140050A3FE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F8D8FB1FA415140050A3FE /* AuthService.swift */; };
 		2306A89C6FB828FBB1C4AF87 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97272D9D99286000DFF09E9E /* Pods_Smack.framework */; };
@@ -41,6 +43,8 @@
 		017455A01FA1FC1A00502259 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		017455A21FA2042800502259 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		0174DDB91FA03B1B00F87D87 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		0181A0721FA592D300CCABA1 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		0181A0741FA594E700CCABA1 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		01B1F8381FA3422200B0EC58 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		01F8D8FB1FA415140050A3FE /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		14198FDE1579020728F31CF2 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 				012C18771F9F63F1000791FF /* ChannelVC.swift */,
 				017455A21FA2042800502259 /* LoginVC.swift */,
 				01B1F8381FA3422200B0EC58 /* CreateAccountVC.swift */,
+				0181A0721FA592D300CCABA1 /* AvatarPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			children = (
 				0174DDB91FA03B1B00F87D87 /* GradientView.swift */,
 				014E0AAA1FA4AD1300843FE3 /* RoundedButton.swift */,
+				0181A0741FA594E700CCABA1 /* AvatarCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -292,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				012C18781F9F63F1000791FF /* ChannelVC.swift in Sources */,
+				0181A0731FA592D300CCABA1 /* AvatarPickerVC.swift in Sources */,
 				014E0AAB1FA4AD1300843FE3 /* RoundedButton.swift in Sources */,
 				012C18761F9F63DE000791FF /* ChatVC.swift in Sources */,
 				014E0AAD1FA4B97D00843FE3 /* UserDataService.swift in Sources */,
@@ -299,6 +306,7 @@
 				01F8D8FC1FA415140050A3FE /* AuthService.swift in Sources */,
 				017455A31FA2042800502259 /* LoginVC.swift in Sources */,
 				0174DDBA1FA03B1B00F87D87 /* GradientView.swift in Sources */,
+				0181A0751FA594E700CCABA1 /* AvatarCell.swift in Sources */,
 				012C185C1F9F501F000791FF /* AppDelegate.swift in Sources */,
 				012C18711F9F608F000791FF /* SWRevealViewController.m in Sources */,
 				017455A11FA1FC1A00502259 /* Constants.swift in Sources */,
