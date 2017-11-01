@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01248B481FA9D18900E938FF /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01248B461FA9D18900E938FF /* ProfileVC.swift */; };
+		01248B491FA9D18900E938FF /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01248B471FA9D18900E938FF /* ProfileVC.xib */; };
 		012C185C1F9F501F000791FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C185B1F9F501F000791FF /* AppDelegate.swift */; };
 		012C18611F9F501F000791FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012C185F1F9F501F000791FF /* Main.storyboard */; };
 		012C18631F9F501F000791FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012C18621F9F501F000791FF /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01248B461FA9D18900E938FF /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		01248B471FA9D18900E938FF /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		012C18581F9F501F000791FF /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		012C185B1F9F501F000791FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		012C18601F9F501F000791FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01248B4A1FA9D1C000E938FF /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				01248B471FA9D18900E938FF /* ProfileVC.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
 		012C184F1F9F501F000791FF = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +99,7 @@
 		012C185A1F9F501F000791FF /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				01248B4A1FA9D1C000E938FF /* XIBs */,
 				01F8D8FA1FA414F30050A3FE /* Services */,
 				0174559F1FA1FBFB00502259 /* Utilities */,
 				012C18741F9F63A9000791FF /* Model */,
@@ -120,6 +133,7 @@
 				017455A21FA2042800502259 /* LoginVC.swift */,
 				01B1F8381FA3422200B0EC58 /* CreateAccountVC.swift */,
 				0181A0721FA592D300CCABA1 /* AvatarPickerVC.swift */,
+				01248B461FA9D18900E938FF /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -240,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				012C18661F9F501F000791FF /* LaunchScreen.storyboard in Resources */,
+				01248B491FA9D18900E938FF /* ProfileVC.xib in Resources */,
 				012C18631F9F501F000791FF /* Assets.xcassets in Resources */,
 				012C18611F9F501F000791FF /* Main.storyboard in Resources */,
 			);
@@ -302,6 +317,7 @@
 			files = (
 				012C18781F9F63F1000791FF /* ChannelVC.swift in Sources */,
 				0181A0731FA592D300CCABA1 /* AvatarPickerVC.swift in Sources */,
+				01248B481FA9D18900E938FF /* ProfileVC.swift in Sources */,
 				014E0AAB1FA4AD1300843FE3 /* RoundedButton.swift in Sources */,
 				0181A0771FA5A83B00CCABA1 /* CircleImage.swift in Sources */,
 				012C18761F9F63DE000791FF /* ChatVC.swift in Sources */,
