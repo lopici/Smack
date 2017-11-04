@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010F92ED1FADE2040021E258 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010F92EC1FADE2040021E258 /* SocketService.swift */; };
 		01248B481FA9D18900E938FF /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01248B461FA9D18900E938FF /* ProfileVC.swift */; };
 		01248B491FA9D18900E938FF /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01248B471FA9D18900E938FF /* ProfileVC.xib */; };
 		012C185C1F9F501F000791FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C185B1F9F501F000791FF /* AppDelegate.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		010F92EC1FADE2040021E258 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		01248B461FA9D18900E938FF /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		01248B471FA9D18900E938FF /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		012C18581F9F501F000791FF /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +186,7 @@
 				01F8D8FB1FA415140050A3FE /* AuthService.swift */,
 				014E0AAC1FA4B97D00843FE3 /* UserDataService.swift */,
 				01586E561FAB2410009DB13B /* MessageService.swift */,
+				010F92EC1FADE2040021E258 /* SocketService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010F92ED1FADE2040021E258 /* SocketService.swift in Sources */,
 				012C18781F9F63F1000791FF /* ChannelVC.swift in Sources */,
 				0181A0731FA592D300CCABA1 /* AvatarPickerVC.swift in Sources */,
 				01248B481FA9D18900E938FF /* ProfileVC.swift in Sources */,

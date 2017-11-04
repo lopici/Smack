@@ -13,7 +13,7 @@ import SwiftyJSON
 class MessageService {
     
     static let instance = MessageService() //singleton
-    var channels = [Channel]()
+    var channels = [Channel]()//list of channels - adding channels in SocketService
     
     func findAllChannel(completion: @escaping CompletionHandler) {
         
