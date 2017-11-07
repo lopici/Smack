@@ -31,6 +31,7 @@
 		0181A0751FA594E700CCABA1 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181A0741FA594E700CCABA1 /* AvatarCell.swift */; };
 		0181A0771FA5A83B00CCABA1 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181A0761FA5A83B00CCABA1 /* CircleImage.swift */; };
 		01B1F8391FA3422200B0EC58 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B1F8381FA3422200B0EC58 /* CreateAccountVC.swift */; };
+		01CC38F91FB1C29A00FBA3BB /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CC38F81FB1C29A00FBA3BB /* Message.swift */; };
 		01F8D8FC1FA415140050A3FE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F8D8FB1FA415140050A3FE /* AuthService.swift */; };
 		2306A89C6FB828FBB1C4AF87 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97272D9D99286000DFF09E9E /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +65,7 @@
 		0181A0741FA594E700CCABA1 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		0181A0761FA5A83B00CCABA1 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		01B1F8381FA3422200B0EC58 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		01CC38F81FB1C29A00FBA3BB /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		01F8D8FB1FA415140050A3FE /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		14198FDE1579020728F31CF2 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 		97272D9D99286000DFF09E9E /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				01586E581FAB24A4009DB13B /* Channel.swift */,
+				01CC38F81FB1C29A00FBA3BB /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				01248B481FA9D18900E938FF /* ProfileVC.swift in Sources */,
 				01586E5B1FAB2E3A009DB13B /* ChannelCell.swift in Sources */,
 				014E0AAB1FA4AD1300843FE3 /* RoundedButton.swift in Sources */,
+				01CC38F91FB1C29A00FBA3BB /* Message.swift in Sources */,
 				01586E591FAB24A4009DB13B /* Channel.swift in Sources */,
 				0181A0771FA5A83B00CCABA1 /* CircleImage.swift in Sources */,
 				01586E571FAB2410009DB13B /* MessageService.swift in Sources */,
