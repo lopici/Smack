@@ -41,6 +41,7 @@ class SocketService: NSObject {
             
             let newChannel = Channel(channelTitle: channelName, channelDescription: channelDesc, id: channelId)
             MessageService.instance.channels.append(newChannel)
+            completion(true)//missing
             
             //I added this
            // NotificationCenter.default.post(name: NOTIF_CHANNELS_LOADED, object: nil)
