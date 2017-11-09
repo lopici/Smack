@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Smack/Controller/ChatVC.swift"
-            timestampString = "531838195.466204"
+            timestampString = "531908648.3497"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "94"
             endingLineNumber = "94"
-            landmarkName = "updateWithChannel()"
+            landmarkName = "userDataDidChange(_:)"
             landmarkType = "7">
             <Locations>
                <Location
